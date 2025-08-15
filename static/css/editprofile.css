@@ -1,0 +1,19 @@
+input, select, textarea {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+label {
+  font-size: 0.95rem;
+  margin-bottom: 5px;
+}
+
+button {
+  transition: all 0.3s ease;
+  font-weight: 600;
+  padding: 10px 20px;
+}
