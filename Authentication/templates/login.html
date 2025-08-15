@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+<title>Online-exam/signIn</title>
+{% endblock title %}
+{% block css %}
+  <link rel="stylesheet" href="{% static 'signup.css' %}" />
+  {{ block.super }}
+{% endblock %}
+{% block body_content %}
+  {% if messages %}
+    {% for message in messages %}
+      {% if message.tags == 'error' %}
+        {% with level='danger' %}
+          <div class="alert alert-{{ level }} alert-dismissible fade show mt-2 fw-bold text-center" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        {% endwith %}
+      {% else %}
+        <div class="alert alert-{{ message.tags }} alert-dismissible fade show mt-2 fw-bold text-center" role="alert">
+          {{ message }}
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  {% if admin %}
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="form-card border border-warning rounded-4 shadow-lg p-4" style="background-color: #1a1a1a;">
+            <h3 class="text-center mb-4 text-warning">🔐 Admin Login</h3>
+
+            <form method="POST" novalidate>
+              {% csrf_token %}
+              {% for field in log_in %}
+                <div class="mb-3">
+                  <label class="form-label text-light">{{ field.label }}</label>
+                  {{ field }}
+                  {% if field.errors %}
+                    <div class="text-danger small">{{ field.errors|striptags }}</div>
+                  {% endif %}
+                </div>
+              {% endfor %}
+
+              <button type="submit" class="btn btn-warning w-100 fw-semibold">Login as Admin</button> 
+            </form>
+
+            <p class="mt-4 text-center text-light small fst-italic">
+              For regular users, please go to
+              <a href="{% url 'log_in' %}" class="text-decoration-none text-info fw-semibold">Student Login</a><br>
+              <a href="{% url 'forget_password' %}" class="text-decoration-none fw-semibold ">Forget Password</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% else %}
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="form-card border border-light user rounded-4">
+            <h3 class="text-center mb-4 text-light">📝 Login to Your Account</h3>
+
+            <form method="POST" novalidate>
+              {% csrf_token %}
+              {% for field in log_in %}
+                <div class="mb-3">
+                  <label class="form-label">{{ field.label }}</label>
+                  {{ field }}
+                  {% if field.errors %}
+                    <div class="text-warning small">{{ field.errors|striptags }}</div>
+                  {% endif %}
+                </div>
+              {% endfor %}
+
+              <button type="submit" class="btn btn-primary w-100">Login</button>
+            </form>
+
+            <p class="mt-4 text-center">
+              Don't have an account?
+              <a href="{% url 'register_user' %}" class="text-decoration-none fw-semibold">Sign up now</a> <br>
+              <a href="{% url 'forget_password' %}" class="text-decoration-none fw-semibold">Forget Password</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endblock %}

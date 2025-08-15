@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #222;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.result-card {
+  background: #d2b3e2;
+  padding: 40px 30px;
+  border-radius: 16px;
+  max-width: 1000px;
+  margin: auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.result-card h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111;
+}
+
+.summary p {
+  font-size: 17px;
+  margin: 8px 0;
+  color: #333;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 30px;
+  color: #333;
+}
+
+.question-block {
+  background-color: #e0f7ff;
+  border-left: 6px solid #2563eb;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.question-block.wrong {
+  background-color: #ffe6e6;
+  border-left-color: #dc2626;
+}
+
+.question-block p {
+  margin: 8px 0;
+  color: #111;
+}
+
+.corrected-answer {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.not-attempted {
+  color: #d97706;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.home-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.home-btn:hover {
+  background-color: #1d4ed8;
+}

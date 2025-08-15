@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+<title>Edit Profile</title>
+{% endblock title %}
+
+{% block css %}
+  {{ block.super }}
+  <link rel="stylesheet" href="{% static 'editprofile.css' %}" />
+{% endblock %}
+
+{% block body_content %}
+
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-7 col-lg-6">
+        <div class="card bg-dark text-white shadow-lg border border-warning rounded-4 p-4">
+          <!-- Heading -->
+          <div class="text-center mb-4">
+            <h3 class="fw-bold">📝 Edit Profile</h3>
+            <p class="mb-0 text-warning text-capitalize">{{ user.username }}</p>
+          </div>
+
+          <!-- Form Start -->
+          <form method="POST" novalidate>
+            {% csrf_token %}
+
+            {% if form.non_field_errors %}
+              <div class="alert alert-danger text-center fw-semibold">{{ form.non_field_errors|striptags }}</div>
+            {% endif %}
+            {% for field in form %}
+              <div class="mb-4">
+                <label class="form-label fw-semibold">{{ field.label }}</label>
+                {{ field }}
+                {% if field.errors %}
+                  <div class="text-warning small mt-1">{{ field.errors|striptags }}</div>
+                {% endif %}
+              </div>
+            {% endfor %}
+
+            <div class="d-grid mt-3">
+              <button type="submit" class="btn btn-primary">💾 Save Changes</button>
+            </div>
+          </form>
+
+          <!-- Change Password -->
+          <div class="d-grid mt-3">
+            <a href="{% url 'change_password' %}" class="btn btn-outline-warning fw-semibold">🔐 Change Password</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

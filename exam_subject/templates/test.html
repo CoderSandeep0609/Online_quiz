@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+{% block body_content %}
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .question-card {
+      background: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      margin-top: 3rem;
+      color: black;
+    }
+    .question-progress {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #6610f2;
+    }
+    .question-text {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .option-label {
+      display: block;
+      background-color: #f8f9fa;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+      padding: 0.8rem 1.2rem;
+      margin-bottom: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      color: black;
+    }
+    .option-label:hover {
+      background-color: #e2e6ea;
+    }
+    .submit-btn {
+      margin-top: 2rem;
+    }
+  </style>
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="question-card">
+          <!-- Question Progress -->
+          <div class="question-progress">Question {{ current|add:'1' }} of {{ totalplus }}</div>
+
+          <!-- Question -->
+          <div class="question-text">{{ ques.question }}</div>
+
+          <!-- Options -->
+          <form method="POST">
+            {% csrf_token %}
+            <label class="option-label">
+              <input type="radio" name="answer" value="{{ ques.option_a }}" class="form-check-input me-2" />
+              {{ ques.option_a }}
+            </label>
+            <label class="option-label">
+              <input type="radio" name="answer" value="{{ ques.option_b }}" class="form-check-input me-2" />
+              {{ ques.option_b }}
+            </label>
+            <label class="option-label">
+              <input type="radio" name="answer" value="{{ ques.option_c }}" class="form-check-input me-2" />
+              {{ ques.option_c }}
+            </label>
+            <label class="option-label">
+              <input type="radio" name="answer" value="{{ ques.option_d }}" class="form-check-input me-2" />
+              {{ ques.option_d }}
+            </label>
+
+            <!-- Next Button -->
+
+            {% if current < total %}
+              <div class="text-end submit-btn">
+                <input type="hidden" name="ids" value="{{ current|add:'1' }}" />
+                <input type="hidden" name="idss" value="{{ ques.id }}" />
+                <button type="submit" class="btn btn-primary">Next</button>
+              </div>
+            {% else %}
+              <div class="text-end submit-btn">
+                <input type="hidden" name="submit" value="1" />
+                <input type="hidden" name="ids" value="{{ current }}" />
+                <input type="hidden" name="idss" value="{{ ques.id }}" />
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            {% endif %}
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

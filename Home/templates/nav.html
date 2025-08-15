@@ -1,0 +1,41 @@
+<div class="bg-dark py-3 px-3 fixed-top">
+  <div class="d-flex justify-content-around align-items-center">
+    <!-- Left & Centered Navigation Links -->
+    <ul class="nav custom-nav">
+      <li class="nav-item">
+        <a class="nav-link {% if request.path == '/' %}active text-primary {% endif %}" href="{% url 'home_page' %}">Home</a>
+      </li>
+
+      {% if not user.is_authenticated %}
+        <li class="nav-item">
+          <a class="nav-link {% if request.path == '/user/register/' %}active text-primary {% endif %}" href="{% url 'register_user' %}">Signup</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if request.path == '/user/log_in/' %}active text-primary {% endif %}" href="{% url 'log_in' %}">Student Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if request.path == '/user/admin/log_in/' %}active text-primary {% endif %}" href="{% url 'admin_log_in' %}">Admin Login</a>
+        </li>
+      {% endif %}
+
+      <li class="nav-item">
+        <a class="nav-link {% if request.path == '/contact/' %}active text-primary {% endif %}" href="{% url 'contact' %}">Contact</a>
+      </li>
+
+      {% if user.is_authenticated %}
+        <li class="nav-item">
+          <a class="nav-link {% if request.path == '/user/profile/' %}active text-primary {% endif %}" href="{% url 'profile' %}">Profile</a>
+        </li>
+      {% endif %}
+    </ul>
+
+    <!-- Right-Aligned Logout -->
+    {% if user.is_authenticated %}
+      <ul class="nav custom-nav">
+        <li class="nav-item">
+          <a class="nav-link text-danger" href="{% url 'log_out' %}">Logout</a>
+        </li>
+      </ul>
+    {% endif %}
+  </div>
+</div>

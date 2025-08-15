@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+  <title>Sign-up</title>
+{% endblock %}
+{% block css %}
+  <link rel="stylesheet" href="{% static 'signup.css' %}" />
+  {{ block.super }}
+{% endblock %}
+{% block body_content %}
+  {% if messages %}
+    {% for message in messages %}
+      {% if message.tags == 'error' %}
+        {% with level='danger' %}
+          <div class="alert alert-{{ level }} alert-dismissible fade show mt-2 fw-bold text-center" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        {% endwith %}
+      {% else %}
+        <div class="alert alert-{{ message.tags }} alert-dismissible fade show mt-2 fw-bold text-center" role="alert">
+          {{ message }}
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="form-card">
+          <h3 class="text-center mb-4 text-light">📝 Register for a New Account</h3>
+
+          <form method="POST" novalidate>
+            {% csrf_token %}
+            {% for field in sign_up %}
+              <div class="mb-3">
+                <label class="form-label">{{ field.label }}</label>
+                {{ field }}
+                {% if field.errors %}
+                  <div class="text-warning small">{{ field.errors|striptags }}</div>
+                {% endif %}
+              </div>
+            {% endfor %}
+
+            <button type="submit" class="btn btn-primary w-100">Create Account</button>
+          </form>
+
+          <p class="mt-4 text-center">
+            Already have an account?
+            <a href="{% url 'log_in' %}" class="text-decoration-none fw-semibold">Login</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

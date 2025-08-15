@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(47, 47, 48);
+    padding: 0;
+    margin: 0;
+}
+.main-content {
+    max-width: 1300px;  /* You can change this */
+    width: 100%;
+}
+
+
+.test-section {
+  padding: 50px 20px;
+  background-color: #17457c;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #fff700;
+}
+
+.test-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.test-card {
+  background-color: #221313;
+  border-radius: 12px;
+  padding: 30px 20px;
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.test-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: rgb(255, 253, 233);
+}
+
+.test-card p {
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.start-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.python-card .start-btn { background-color: #4b8bbe; }
+.java-card .start-btn { background-color: #e76f00; }
+.django-card .start-btn { background-color: #092e20; }
+.cpp-card .start-btn { background-color: #370837; }
+
+.start-btn:hover {
+  opacity: 0.9;
+}
+
+.test-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+
+
+
+
+
+
+/* Moving border */
+.animated-border {
+  position: relative;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #ffffff;
+  font-size: 2rem;
+  background-color: #112038; /* Keep background clean */
+  z-index: 1;
+}
+
+.animated-border::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+  border-radius: 8px;
+  background: linear-gradient(
+    270deg,
+    red,
+    orange,
+    yellow,
+    green,
+    rgb(143, 143, 209),
+    rgb(255, 251, 0),
+    violet,
+    rgb(226, 56, 56)
+  );
+  background-size: 400% 400%;
+  animation: animateBorder 6s linear infinite;
+  z-index: -1;
+  /* Create a hollow center */
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: destination-out;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+@keyframes animateBorder {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

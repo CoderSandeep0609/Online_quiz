@@ -1,0 +1,207 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+<title>{{ user.username }}</title>
+{% endblock title %}
+{% block css %}
+  {{ block.super }}
+  <style>
+    .profile-banner {
+      background: linear-gradient(90deg, #0d6efd, #6610f2);
+      color: white;
+      padding: 2rem;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+      text-align: center;
+    }
+    
+    .profile-card {
+      background-color: #ffffff;
+      border-radius: 0 0 1rem 1rem;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      padding: 2rem;
+    }
+    
+    .profile-picture {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid #0d6efd;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    
+    .stats-row,
+    .details-row {
+      margin-top: 2rem;
+    }
+    
+    .stats-box h5 {
+      font-weight: bold;
+      font-size: 1.4rem;
+      color: black;
+    }
+    
+    .details-row p {
+      margin-bottom: 0.8rem;
+    }
+    
+    .details-label {
+      font-weight: 600;
+      color: #333;
+    }
+    
+    .details-value {
+      color: #666;
+    }
+    
+    .profile-actions a {
+      min-width: 150px;
+    }
+  </style>
+{% endblock %}
+
+{% block body_content %}
+  {% if messages %}
+    {% for message in messages %}
+      {% if message.tags == 'error' %}
+        {% with level='danger' %}
+          <div class="alert alert-{{ level }} alert-dismissible fade show mt-2 fw-bold text-center" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        {% endwith %}
+      {% else %}
+        <div class="alert alert-{{ message.tags }} alert-dismissible fade show mt-2 fw-bold text-center" role="alert">
+          {{ message }}
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <!-- Banner Header -->
+        <div class="profile-banner">
+          <h2 class="mb-1">Welcome, {{ student_data.first_name|default:user.username|title }}</h2>
+          <p class="mb-0">Your personalized dashboard</p>
+        </div>
+
+        <!-- Profile Card -->
+        <div class="profile-card text-center">
+          <!-- Profile Picture -->
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" class="profile-picture" alt="Profile" />
+
+          <!-- Basic Info -->
+          <h4 class="fw-bold mb-0 text-black">{{ user.username }}</h4>
+          <p class="text-muted">
+            {% if user.is_superuser %}
+              <span class="bg-danger text-white px-2 py-1 rounded">Admin</span>
+            {% else %}
+              <span class="bg-danger text-white px-2 py-1 rounded">Student</span>
+            {% endif %}| {{ user.email }}
+          </p>
+
+          {% if not user.is_superuser %}
+            <!-- Stats -->
+            <div class="row stats-row">
+              <div class="col-md-4 stats-box">
+                <h5>{{record.attempt}}</h5>
+                <p class="text-muted">Tests Taken</p>
+              </div>
+              <div class="col-md-4 stats-box">
+                <h5>{{record.pass_total}}</h5>
+                <p class="text-muted">Passed</p>
+              </div>
+              <div class="col-md-4 stats-box">
+                <h5>{{record.avg}}%</h5>
+                <p class="text-muted">Average Marks</p>
+              </div>
+            </div>
+
+            <!-- Profile Details -->
+            <div class="row details-row text-start">
+              <div class="col-md-6">
+                <p>
+                  <span class="details-label">First Name:</span>
+                  <span class="details-value">{{ student_data.first_name|default:'--' }}</span>
+                </p>
+                <p>
+                  <span class="details-label">Gender:</span>
+                  <span class="details-value">{{ student_data.gender|default:'--' }}</span>
+                </p>
+                <p>
+                  <span class="details-label">Qualification:</span>
+                  <span class="details-value">{{ student_data.qualification|default:'--' }}</span>
+                </p>
+              </div>
+              <div class="col-md-6">
+                <p>
+                  <span class="details-label">Last Name:</span>
+                  <span class="details-value">{{ student_data.last_name|default:'--' }}</span>
+                </p>
+                <p>
+                  <span class="details-label">Age:</span>
+                  <span class="details-value">{{ student_data.age|default:'--' }}</span>
+                </p>
+                <p>
+                  <span class="details-label">Marks (%):</span>
+                  <span class="details-value">{{ student_data.marks|default:'--' }}</span>
+                </p>
+              </div>
+            </div>
+            <div class="container my-4">
+              <div class="card bg-dark text-white shadow-lg rounded">
+                <div class="card-body">
+                  {% if not exm_data %}
+                    <h3 class="text-center">No Tests Attempted</h3>
+                  {% else %}
+                    <h2 class="card-title text-center mb-4">📊 Your Exam Summary</h2>
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                      {% for rec in exm_data %}
+                        <div class="col">
+                          <div class="card h-100 bg-secondary border-light text-white">
+                            <div class="card-body">
+                              <h5 class="card-title">📘 {{ rec.subject }}</h5>
+                              <p class="card-text mb-1">
+                                <strong>Marks:</strong> {{ rec.marks_obtained }} / {{ rec.total_marks }}
+                              </p>
+                              <!-- Delete Button -->
+                              <form action="{% url 'delete_exam' rec.id %}" method="post" style="display:inline;">
+                                {% csrf_token %}
+                                <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this exam record?');">🗑 Delete</button>
+                              </form>
+
+                              <!-- Progress Bar -->
+                              <div class="progress mt-3" style="height: 8px;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: {{ rec.marks_obtained|floatformat:0 }}%;" aria-valuenow="{{ rec.marks_obtained }}" aria-valuemin="0" aria-valuemax="{{ rec.total_marks }}"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="d-flex justify-content-center gap-3 mt-4 profile-actions">
+              <a href="{% url 'edit_profile' user.id %}" class="btn btn-outline-primary">Edit Profile</a>
+              <a href="{% url 'log_out' %}" class="btn btn-outline-danger">Logout</a>
+            </div>
+          {% else %}
+            <div class="d-flex justify-content-center gap-3 mt-4 profile-actions">
+              <a href="{% url 'load_ques' %}" class="btn btn-outline-danger">Load Ques</a>
+              <a href="{% url 'feedback' %}" class="btn btn-outline-danger">Users Feedback</a>
+              <a href="{% url 'log_out' %}" class="btn btn-outline-danger">Logout</a>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

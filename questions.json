@@ -1,0 +1,4802 @@
+[
+  {
+    "question": "Which keyword is used to define a function in Python? (1)",
+    "options": {
+      "A": "function",
+      "B": "def",
+      "C": "func",
+      "D": "define"
+    },
+    "correct_option": "B",
+    "id": 1,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of: type([])? (2)",
+    "options": {
+      "A": "<class 'list'>",
+      "B": "<type 'list'>",
+      "C": "list",
+      "D": "type"
+    },
+    "correct_option": "A",
+    "id": 2,
+    "subject": "python"
+  },
+  {
+    "question": "Which of the following is used to create a class in Python? (3)",
+    "options": {
+      "A": "def",
+      "B": "object",
+      "C": "class",
+      "D": "struct"
+    },
+    "correct_option": "C",
+    "id": 3,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of print(2 ** 3)? (4)",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "5"
+    },
+    "correct_option": "B",
+    "id": 4,
+    "subject": "python"
+  },
+  {
+    "question": "Which method is used to add an element to a list? (5)",
+    "options": {
+      "A": "add()",
+      "B": "append()",
+      "C": "insert()",
+      "D": "push()"
+    },
+    "correct_option": "B",
+    "id": 5,
+    "subject": "python"
+  },
+  {
+    "question": "Which data type is immutable in Python? (6)",
+    "options": {
+      "A": "List",
+      "B": "Set",
+      "C": "Tuple",
+      "D": "Dictionary"
+    },
+    "correct_option": "C",
+    "id": 6,
+    "subject": "python"
+  },
+  {
+    "question": "How do you start a comment in Python? (7)",
+    "options": {
+      "A": "//",
+      "B": "/*",
+      "C": "#",
+      "D": "<!--"
+    },
+    "correct_option": "C",
+    "id": 7,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of bool('False') in Python? (8)",
+    "options": {
+      "A": "False",
+      "B": "True",
+      "C": "None",
+      "D": "0"
+    },
+    "correct_option": "B",
+    "id": 8,
+    "subject": "python"
+  },
+  {
+    "question": "Which of these is a correct variable name in Python? (9)",
+    "options": {
+      "A": "2variable",
+      "B": "var_name",
+      "C": "var-name",
+      "D": "var name"
+    },
+    "correct_option": "B",
+    "id": 9,
+    "subject": "python"
+  },
+  {
+    "question": "What does the 'is' keyword compare? (10)",
+    "options": {
+      "A": "Equality",
+      "B": "Type",
+      "C": "Identity",
+      "D": "None"
+    },
+    "correct_option": "C",
+    "id": 10,
+    "subject": "python"
+  },
+  {
+    "question": "Which keyword is used to define a function in Python? (11)",
+    "options": {
+      "A": "function",
+      "B": "def",
+      "C": "func",
+      "D": "define"
+    },
+    "correct_option": "B",
+    "id": 11,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of: type([])? (12)",
+    "options": {
+      "A": "<class 'list'>",
+      "B": "<type 'list'>",
+      "C": "list",
+      "D": "type"
+    },
+    "correct_option": "A",
+    "id": 12,
+    "subject": "python"
+  },
+  {
+    "question": "Which of the following is used to create a class in Python? (13)",
+    "options": {
+      "A": "def",
+      "B": "object",
+      "C": "class",
+      "D": "struct"
+    },
+    "correct_option": "C",
+    "id": 13,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of print(2 ** 3)? (14)",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "5"
+    },
+    "correct_option": "B",
+    "id": 14,
+    "subject": "python"
+  },
+  {
+    "question": "Which method is used to add an element to a list? (15)",
+    "options": {
+      "A": "add()",
+      "B": "append()",
+      "C": "insert()",
+      "D": "push()"
+    },
+    "correct_option": "B",
+    "id": 15,
+    "subject": "python"
+  },
+  {
+    "question": "Which data type is immutable in Python? (16)",
+    "options": {
+      "A": "List",
+      "B": "Set",
+      "C": "Tuple",
+      "D": "Dictionary"
+    },
+    "correct_option": "C",
+    "id": 16,
+    "subject": "python"
+  },
+  {
+    "question": "How do you start a comment in Python? (17)",
+    "options": {
+      "A": "//",
+      "B": "/*",
+      "C": "#",
+      "D": "<!--"
+    },
+    "correct_option": "C",
+    "id": 17,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of bool('False') in Python? (18)",
+    "options": {
+      "A": "False",
+      "B": "True",
+      "C": "None",
+      "D": "0"
+    },
+    "correct_option": "B",
+    "id": 18,
+    "subject": "python"
+  },
+  {
+    "question": "Which of these is a correct variable name in Python? (19)",
+    "options": {
+      "A": "2variable",
+      "B": "var_name",
+      "C": "var-name",
+      "D": "var name"
+    },
+    "correct_option": "B",
+    "id": 19,
+    "subject": "python"
+  },
+  {
+    "question": "What does the 'is' keyword compare? (20)",
+    "options": {
+      "A": "Equality",
+      "B": "Type",
+      "C": "Identity",
+      "D": "None"
+    },
+    "correct_option": "C",
+    "id": 20,
+    "subject": "python"
+  },
+  {
+    "question": "Which keyword is used to define a function in Python? (21)",
+    "options": {
+      "A": "function",
+      "B": "def",
+      "C": "func",
+      "D": "define"
+    },
+    "correct_option": "B",
+    "id": 21,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of: type([])? (22)",
+    "options": {
+      "A": "<class 'list'>",
+      "B": "<type 'list'>",
+      "C": "list",
+      "D": "type"
+    },
+    "correct_option": "A",
+    "id": 22,
+    "subject": "python"
+  },
+  {
+    "question": "Which of the following is used to create a class in Python? (23)",
+    "options": {
+      "A": "def",
+      "B": "object",
+      "C": "class",
+      "D": "struct"
+    },
+    "correct_option": "C",
+    "id": 23,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of print(2 ** 3)? (24)",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "5"
+    },
+    "correct_option": "B",
+    "id": 24,
+    "subject": "python"
+  },
+  {
+    "question": "Which method is used to add an element to a list? (25)",
+    "options": {
+      "A": "add()",
+      "B": "append()",
+      "C": "insert()",
+      "D": "push()"
+    },
+    "correct_option": "B",
+    "id": 25,
+    "subject": "python"
+  },
+  {
+    "question": "Which data type is immutable in Python? (26)",
+    "options": {
+      "A": "List",
+      "B": "Set",
+      "C": "Tuple",
+      "D": "Dictionary"
+    },
+    "correct_option": "C",
+    "id": 26,
+    "subject": "python"
+  },
+  {
+    "question": "How do you start a comment in Python? (27)",
+    "options": {
+      "A": "//",
+      "B": "/*",
+      "C": "#",
+      "D": "<!--"
+    },
+    "correct_option": "C",
+    "id": 27,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of bool('False') in Python? (28)",
+    "options": {
+      "A": "False",
+      "B": "True",
+      "C": "None",
+      "D": "0"
+    },
+    "correct_option": "B",
+    "id": 28,
+    "subject": "python"
+  },
+  {
+    "question": "Which of these is a correct variable name in Python? (29)",
+    "options": {
+      "A": "2variable",
+      "B": "var_name",
+      "C": "var-name",
+      "D": "var name"
+    },
+    "correct_option": "B",
+    "id": 29,
+    "subject": "python"
+  },
+  {
+    "question": "What does the 'is' keyword compare? (30)",
+    "options": {
+      "A": "Equality",
+      "B": "Type",
+      "C": "Identity",
+      "D": "None"
+    },
+    "correct_option": "C",
+    "id": 30,
+    "subject": "python"
+  },
+  {
+    "question": "Which keyword is used to define a function in Python? (31)",
+    "options": {
+      "A": "function",
+      "B": "def",
+      "C": "func",
+      "D": "define"
+    },
+    "correct_option": "B",
+    "id": 31,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of: type([])? (32)",
+    "options": {
+      "A": "<class 'list'>",
+      "B": "<type 'list'>",
+      "C": "list",
+      "D": "type"
+    },
+    "correct_option": "A",
+    "id": 32,
+    "subject": "python"
+  },
+  {
+    "question": "Which of the following is used to create a class in Python? (33)",
+    "options": {
+      "A": "def",
+      "B": "object",
+      "C": "class",
+      "D": "struct"
+    },
+    "correct_option": "C",
+    "id": 33,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of print(2 ** 3)? (34)",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "5"
+    },
+    "correct_option": "B",
+    "id": 34,
+    "subject": "python"
+  },
+  {
+    "question": "Which method is used to add an element to a list? (35)",
+    "options": {
+      "A": "add()",
+      "B": "append()",
+      "C": "insert()",
+      "D": "push()"
+    },
+    "correct_option": "B",
+    "id": 35,
+    "subject": "python"
+  },
+  {
+    "question": "Which data type is immutable in Python? (36)",
+    "options": {
+      "A": "List",
+      "B": "Set",
+      "C": "Tuple",
+      "D": "Dictionary"
+    },
+    "correct_option": "C",
+    "id": 36,
+    "subject": "python"
+  },
+  {
+    "question": "How do you start a comment in Python? (37)",
+    "options": {
+      "A": "//",
+      "B": "/*",
+      "C": "#",
+      "D": "<!--"
+    },
+    "correct_option": "C",
+    "id": 37,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of bool('False') in Python? (38)",
+    "options": {
+      "A": "False",
+      "B": "True",
+      "C": "None",
+      "D": "0"
+    },
+    "correct_option": "B",
+    "id": 38,
+    "subject": "python"
+  },
+  {
+    "question": "Which of these is a correct variable name in Python? (39)",
+    "options": {
+      "A": "2variable",
+      "B": "var_name",
+      "C": "var-name",
+      "D": "var name"
+    },
+    "correct_option": "B",
+    "id": 39,
+    "subject": "python"
+  },
+  {
+    "question": "What does the 'is' keyword compare? (40)",
+    "options": {
+      "A": "Equality",
+      "B": "Type",
+      "C": "Identity",
+      "D": "None"
+    },
+    "correct_option": "C",
+    "id": 40,
+    "subject": "python"
+  },
+  {
+    "question": "Which keyword is used to define a function in Python? (41)",
+    "options": {
+      "A": "function",
+      "B": "def",
+      "C": "func",
+      "D": "define"
+    },
+    "correct_option": "B",
+    "id": 41,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of: type([])? (42)",
+    "options": {
+      "A": "<class 'list'>",
+      "B": "<type 'list'>",
+      "C": "list",
+      "D": "type"
+    },
+    "correct_option": "A",
+    "id": 42,
+    "subject": "python"
+  },
+  {
+    "question": "Which of the following is used to create a class in Python? (43)",
+    "options": {
+      "A": "def",
+      "B": "object",
+      "C": "class",
+      "D": "struct"
+    },
+    "correct_option": "C",
+    "id": 43,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of print(2 ** 3)? (44)",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "5"
+    },
+    "correct_option": "B",
+    "id": 44,
+    "subject": "python"
+  },
+  {
+    "question": "Which method is used to add an element to a list? (45)",
+    "options": {
+      "A": "add()",
+      "B": "append()",
+      "C": "insert()",
+      "D": "push()"
+    },
+    "correct_option": "B",
+    "id": 45,
+    "subject": "python"
+  },
+  {
+    "question": "Which data type is immutable in Python? (46)",
+    "options": {
+      "A": "List",
+      "B": "Set",
+      "C": "Tuple",
+      "D": "Dictionary"
+    },
+    "correct_option": "C",
+    "id": 46,
+    "subject": "python"
+  },
+  {
+    "question": "How do you start a comment in Python? (47)",
+    "options": {
+      "A": "//",
+      "B": "/*",
+      "C": "#",
+      "D": "<!--"
+    },
+    "correct_option": "C",
+    "id": 47,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of bool('False') in Python? (48)",
+    "options": {
+      "A": "False",
+      "B": "True",
+      "C": "None",
+      "D": "0"
+    },
+    "correct_option": "B",
+    "id": 48,
+    "subject": "python"
+  },
+  {
+    "question": "Which of these is a correct variable name in Python? (49)",
+    "options": {
+      "A": "2variable",
+      "B": "var_name",
+      "C": "var-name",
+      "D": "var name"
+    },
+    "correct_option": "B",
+    "id": 49,
+    "subject": "python"
+  },
+  {
+    "question": "What does the 'is' keyword compare? (50)",
+    "options": {
+      "A": "Equality",
+      "B": "Type",
+      "C": "Identity",
+      "D": "None"
+    },
+    "correct_option": "C",
+    "id": 50,
+    "subject": "python"
+  },
+  {
+    "question": "Which keyword is used to define a function in Python? (51)",
+    "options": {
+      "A": "function",
+      "B": "def",
+      "C": "func",
+      "D": "define"
+    },
+    "correct_option": "B",
+    "id": 51,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of: type([])? (52)",
+    "options": {
+      "A": "<class 'list'>",
+      "B": "<type 'list'>",
+      "C": "list",
+      "D": "type"
+    },
+    "correct_option": "A",
+    "id": 52,
+    "subject": "python"
+  },
+  {
+    "question": "Which of the following is used to create a class in Python? (53)",
+    "options": {
+      "A": "def",
+      "B": "object",
+      "C": "class",
+      "D": "struct"
+    },
+    "correct_option": "C",
+    "id": 53,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of print(2 ** 3)? (54)",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "5"
+    },
+    "correct_option": "B",
+    "id": 54,
+    "subject": "python"
+  },
+  {
+    "question": "Which method is used to add an element to a list? (55)",
+    "options": {
+      "A": "add()",
+      "B": "append()",
+      "C": "insert()",
+      "D": "push()"
+    },
+    "correct_option": "B",
+    "id": 55,
+    "subject": "python"
+  },
+  {
+    "question": "Which data type is immutable in Python? (56)",
+    "options": {
+      "A": "List",
+      "B": "Set",
+      "C": "Tuple",
+      "D": "Dictionary"
+    },
+    "correct_option": "C",
+    "id": 56,
+    "subject": "python"
+  },
+  {
+    "question": "How do you start a comment in Python? (57)",
+    "options": {
+      "A": "//",
+      "B": "/*",
+      "C": "#",
+      "D": "<!--"
+    },
+    "correct_option": "C",
+    "id": 57,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of bool('False') in Python? (58)",
+    "options": {
+      "A": "False",
+      "B": "True",
+      "C": "None",
+      "D": "0"
+    },
+    "correct_option": "B",
+    "id": 58,
+    "subject": "python"
+  },
+  {
+    "question": "Which of these is a correct variable name in Python? (59)",
+    "options": {
+      "A": "2variable",
+      "B": "var_name",
+      "C": "var-name",
+      "D": "var name"
+    },
+    "correct_option": "B",
+    "id": 59,
+    "subject": "python"
+  },
+  {
+    "question": "What does the 'is' keyword compare? (60)",
+    "options": {
+      "A": "Equality",
+      "B": "Type",
+      "C": "Identity",
+      "D": "None"
+    },
+    "correct_option": "C",
+    "id": 60,
+    "subject": "python"
+  },
+  {
+    "question": "Which keyword is used to define a function in Python? (61)",
+    "options": {
+      "A": "function",
+      "B": "def",
+      "C": "func",
+      "D": "define"
+    },
+    "correct_option": "B",
+    "id": 61,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of: type([])? (62)",
+    "options": {
+      "A": "<class 'list'>",
+      "B": "<type 'list'>",
+      "C": "list",
+      "D": "type"
+    },
+    "correct_option": "A",
+    "id": 62,
+    "subject": "python"
+  },
+  {
+    "question": "Which of the following is used to create a class in Python? (63)",
+    "options": {
+      "A": "def",
+      "B": "object",
+      "C": "class",
+      "D": "struct"
+    },
+    "correct_option": "C",
+    "id": 63,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of print(2 ** 3)? (64)",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "5"
+    },
+    "correct_option": "B",
+    "id": 64,
+    "subject": "python"
+  },
+  {
+    "question": "Which method is used to add an element to a list? (65)",
+    "options": {
+      "A": "add()",
+      "B": "append()",
+      "C": "insert()",
+      "D": "push()"
+    },
+    "correct_option": "B",
+    "id": 65,
+    "subject": "python"
+  },
+  {
+    "question": "Which data type is immutable in Python? (66)",
+    "options": {
+      "A": "List",
+      "B": "Set",
+      "C": "Tuple",
+      "D": "Dictionary"
+    },
+    "correct_option": "C",
+    "id": 66,
+    "subject": "python"
+  },
+  {
+    "question": "How do you start a comment in Python? (67)",
+    "options": {
+      "A": "//",
+      "B": "/*",
+      "C": "#",
+      "D": "<!--"
+    },
+    "correct_option": "C",
+    "id": 67,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of bool('False') in Python? (68)",
+    "options": {
+      "A": "False",
+      "B": "True",
+      "C": "None",
+      "D": "0"
+    },
+    "correct_option": "B",
+    "id": 68,
+    "subject": "python"
+  },
+  {
+    "question": "Which of these is a correct variable name in Python? (69)",
+    "options": {
+      "A": "2variable",
+      "B": "var_name",
+      "C": "var-name",
+      "D": "var name"
+    },
+    "correct_option": "B",
+    "id": 69,
+    "subject": "python"
+  },
+  {
+    "question": "What does the 'is' keyword compare? (70)",
+    "options": {
+      "A": "Equality",
+      "B": "Type",
+      "C": "Identity",
+      "D": "None"
+    },
+    "correct_option": "C",
+    "id": 70,
+    "subject": "python"
+  },
+  {
+    "question": "Which keyword is used to define a function in Python? (71)",
+    "options": {
+      "A": "function",
+      "B": "def",
+      "C": "func",
+      "D": "define"
+    },
+    "correct_option": "B",
+    "id": 71,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of: type([])? (72)",
+    "options": {
+      "A": "<class 'list'>",
+      "B": "<type 'list'>",
+      "C": "list",
+      "D": "type"
+    },
+    "correct_option": "A",
+    "id": 72,
+    "subject": "python"
+  },
+  {
+    "question": "Which of the following is used to create a class in Python? (73)",
+    "options": {
+      "A": "def",
+      "B": "object",
+      "C": "class",
+      "D": "struct"
+    },
+    "correct_option": "C",
+    "id": 73,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of print(2 ** 3)? (74)",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "5"
+    },
+    "correct_option": "B",
+    "id": 74,
+    "subject": "python"
+  },
+  {
+    "question": "Which method is used to add an element to a list? (75)",
+    "options": {
+      "A": "add()",
+      "B": "append()",
+      "C": "insert()",
+      "D": "push()"
+    },
+    "correct_option": "B",
+    "id": 75,
+    "subject": "python"
+  },
+  {
+    "question": "Which data type is immutable in Python? (76)",
+    "options": {
+      "A": "List",
+      "B": "Set",
+      "C": "Tuple",
+      "D": "Dictionary"
+    },
+    "correct_option": "C",
+    "id": 76,
+    "subject": "python"
+  },
+  {
+    "question": "How do you start a comment in Python? (77)",
+    "options": {
+      "A": "//",
+      "B": "/*",
+      "C": "#",
+      "D": "<!--"
+    },
+    "correct_option": "C",
+    "id": 77,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of bool('False') in Python? (78)",
+    "options": {
+      "A": "False",
+      "B": "True",
+      "C": "None",
+      "D": "0"
+    },
+    "correct_option": "B",
+    "id": 78,
+    "subject": "python"
+  },
+  {
+    "question": "Which of these is a correct variable name in Python? (79)",
+    "options": {
+      "A": "2variable",
+      "B": "var_name",
+      "C": "var-name",
+      "D": "var name"
+    },
+    "correct_option": "B",
+    "id": 79,
+    "subject": "python"
+  },
+  {
+    "question": "What does the 'is' keyword compare? (80)",
+    "options": {
+      "A": "Equality",
+      "B": "Type",
+      "C": "Identity",
+      "D": "None"
+    },
+    "correct_option": "C",
+    "id": 80,
+    "subject": "python"
+  },
+  {
+    "question": "Which keyword is used to define a function in Python? (81)",
+    "options": {
+      "A": "function",
+      "B": "def",
+      "C": "func",
+      "D": "define"
+    },
+    "correct_option": "B",
+    "id": 81,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of: type([])? (82)",
+    "options": {
+      "A": "<class 'list'>",
+      "B": "<type 'list'>",
+      "C": "list",
+      "D": "type"
+    },
+    "correct_option": "A",
+    "id": 82,
+    "subject": "python"
+  },
+  {
+    "question": "Which of the following is used to create a class in Python? (83)",
+    "options": {
+      "A": "def",
+      "B": "object",
+      "C": "class",
+      "D": "struct"
+    },
+    "correct_option": "C",
+    "id": 83,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of print(2 ** 3)? (84)",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "5"
+    },
+    "correct_option": "B",
+    "id": 84,
+    "subject": "python"
+  },
+  {
+    "question": "Which method is used to add an element to a list? (85)",
+    "options": {
+      "A": "add()",
+      "B": "append()",
+      "C": "insert()",
+      "D": "push()"
+    },
+    "correct_option": "B",
+    "id": 85,
+    "subject": "python"
+  },
+  {
+    "question": "Which data type is immutable in Python? (86)",
+    "options": {
+      "A": "List",
+      "B": "Set",
+      "C": "Tuple",
+      "D": "Dictionary"
+    },
+    "correct_option": "C",
+    "id": 86,
+    "subject": "python"
+  },
+  {
+    "question": "How do you start a comment in Python? (87)",
+    "options": {
+      "A": "//",
+      "B": "/*",
+      "C": "#",
+      "D": "<!--"
+    },
+    "correct_option": "C",
+    "id": 87,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of bool('False') in Python? (88)",
+    "options": {
+      "A": "False",
+      "B": "True",
+      "C": "None",
+      "D": "0"
+    },
+    "correct_option": "B",
+    "id": 88,
+    "subject": "python"
+  },
+  {
+    "question": "Which of these is a correct variable name in Python? (89)",
+    "options": {
+      "A": "2variable",
+      "B": "var_name",
+      "C": "var-name",
+      "D": "var name"
+    },
+    "correct_option": "B",
+    "id": 89,
+    "subject": "python"
+  },
+  {
+    "question": "What does the 'is' keyword compare? (90)",
+    "options": {
+      "A": "Equality",
+      "B": "Type",
+      "C": "Identity",
+      "D": "None"
+    },
+    "correct_option": "C",
+    "id": 90,
+    "subject": "python"
+  },
+  {
+    "question": "Which keyword is used to define a function in Python? (91)",
+    "options": {
+      "A": "function",
+      "B": "def",
+      "C": "func",
+      "D": "define"
+    },
+    "correct_option": "B",
+    "id": 91,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of: type([])? (92)",
+    "options": {
+      "A": "<class 'list'>",
+      "B": "<type 'list'>",
+      "C": "list",
+      "D": "type"
+    },
+    "correct_option": "A",
+    "id": 92,
+    "subject": "python"
+  },
+  {
+    "question": "Which of the following is used to create a class in Python? (93)",
+    "options": {
+      "A": "def",
+      "B": "object",
+      "C": "class",
+      "D": "struct"
+    },
+    "correct_option": "C",
+    "id": 93,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of print(2 ** 3)? (94)",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "5"
+    },
+    "correct_option": "B",
+    "id": 94,
+    "subject": "python"
+  },
+  {
+    "question": "Which method is used to add an element to a list? (95)",
+    "options": {
+      "A": "add()",
+      "B": "append()",
+      "C": "insert()",
+      "D": "push()"
+    },
+    "correct_option": "B",
+    "id": 95,
+    "subject": "python"
+  },
+  {
+    "question": "Which data type is immutable in Python? (96)",
+    "options": {
+      "A": "List",
+      "B": "Set",
+      "C": "Tuple",
+      "D": "Dictionary"
+    },
+    "correct_option": "C",
+    "id": 96,
+    "subject": "python"
+  },
+  {
+    "question": "How do you start a comment in Python? (97)",
+    "options": {
+      "A": "//",
+      "B": "/*",
+      "C": "#",
+      "D": "<!--"
+    },
+    "correct_option": "C",
+    "id": 97,
+    "subject": "python"
+  },
+  {
+    "question": "What is the output of bool('False') in Python? (98)",
+    "options": {
+      "A": "False",
+      "B": "True",
+      "C": "None",
+      "D": "0"
+    },
+    "correct_option": "B",
+    "id": 98,
+    "subject": "python"
+  },
+  {
+    "question": "Which of these is a correct variable name in Python? (99)",
+    "options": {
+      "A": "2variable",
+      "B": "var_name",
+      "C": "var-name",
+      "D": "var name"
+    },
+    "correct_option": "B",
+    "id": 99,
+    "subject": "python"
+  },
+  {
+    "question": "What does the 'is' keyword compare? (100)",
+    "options": {
+      "A": "Equality",
+      "B": "Type",
+      "C": "Identity",
+      "D": "None"
+    },
+    "correct_option": "C",
+    "id": 100,
+    "subject": "python"
+  },
+  {
+    "question": "What is Django primarily used for? (1)",
+    "options": {
+      "A": "Game development",
+      "B": "Web development",
+      "C": "Mobile apps",
+      "D": "AI"
+    },
+    "correct_option": "B",
+    "id": 101,
+    "subject": "django"
+  },
+  {
+    "question": "Which file is used to define URL patterns in Django? (2)",
+    "options": {
+      "A": "settings.py",
+      "B": "urls.py",
+      "C": "models.py",
+      "D": "views.py"
+    },
+    "correct_option": "B",
+    "id": 102,
+    "subject": "django"
+  },
+  {
+    "question": "What command is used to start a new Django app? (3)",
+    "options": {
+      "A": "django-admin startproject",
+      "B": "python manage.py startapp",
+      "C": "startapp.py",
+      "D": "new-django-app"
+    },
+    "correct_option": "B",
+    "id": 103,
+    "subject": "django"
+  },
+  {
+    "question": "Which ORM does Django use? (4)",
+    "options": {
+      "A": "SQLAlchemy",
+      "B": "Django ORM",
+      "C": "Peewee",
+      "D": "Hibernate"
+    },
+    "correct_option": "B",
+    "id": 104,
+    "subject": "django"
+  },
+  {
+    "question": "Which decorator is used for class-based views? (5)",
+    "options": {
+      "A": "@view",
+      "B": "@method",
+      "C": "@classmethod",
+      "D": "@classmethod and dispatch"
+    },
+    "correct_option": "D",
+    "id": 105,
+    "subject": "django"
+  },
+  {
+    "question": "What is the default database used in Django? (6)",
+    "options": {
+      "A": "MySQL",
+      "B": "PostgreSQL",
+      "C": "SQLite",
+      "D": "MongoDB"
+    },
+    "correct_option": "C",
+    "id": 106,
+    "subject": "django"
+  },
+  {
+    "question": "Where are Django models defined? (7)",
+    "options": {
+      "A": "urls.py",
+      "B": "views.py",
+      "C": "models.py",
+      "D": "admin.py"
+    },
+    "correct_option": "C",
+    "id": 107,
+    "subject": "django"
+  },
+  {
+    "question": "Which template engine does Django use by default? (8)",
+    "options": {
+      "A": "Jinja2",
+      "B": "Mako",
+      "C": "Django template engine",
+      "D": "Handlebars"
+    },
+    "correct_option": "C",
+    "id": 108,
+    "subject": "django"
+  },
+  {
+    "question": "How are static files served in Django during development? (9)",
+    "options": {
+      "A": "Nginx",
+      "B": "Apache",
+      "C": "runserver",
+      "D": "cdn"
+    },
+    "correct_option": "C",
+    "id": 109,
+    "subject": "django"
+  },
+  {
+    "question": "Which file contains database configurations in Django? (10)",
+    "options": {
+      "A": "urls.py",
+      "B": "settings.py",
+      "C": "models.py",
+      "D": "apps.py"
+    },
+    "correct_option": "B",
+    "id": 110,
+    "subject": "django"
+  },
+  {
+    "question": "What is Django primarily used for? (11)",
+    "options": {
+      "A": "Game development",
+      "B": "Web development",
+      "C": "Mobile apps",
+      "D": "AI"
+    },
+    "correct_option": "B",
+    "id": 111,
+    "subject": "django"
+  },
+  {
+    "question": "Which file is used to define URL patterns in Django? (12)",
+    "options": {
+      "A": "settings.py",
+      "B": "urls.py",
+      "C": "models.py",
+      "D": "views.py"
+    },
+    "correct_option": "B",
+    "id": 112,
+    "subject": "django"
+  },
+  {
+    "question": "What command is used to start a new Django app? (13)",
+    "options": {
+      "A": "django-admin startproject",
+      "B": "python manage.py startapp",
+      "C": "startapp.py",
+      "D": "new-django-app"
+    },
+    "correct_option": "B",
+    "id": 113,
+    "subject": "django"
+  },
+  {
+    "question": "Which ORM does Django use? (14)",
+    "options": {
+      "A": "SQLAlchemy",
+      "B": "Django ORM",
+      "C": "Peewee",
+      "D": "Hibernate"
+    },
+    "correct_option": "B",
+    "id": 114,
+    "subject": "django"
+  },
+  {
+    "question": "Which decorator is used for class-based views? (15)",
+    "options": {
+      "A": "@view",
+      "B": "@method",
+      "C": "@classmethod",
+      "D": "@classmethod and dispatch"
+    },
+    "correct_option": "D",
+    "id": 115,
+    "subject": "django"
+  },
+  {
+    "question": "What is the default database used in Django? (16)",
+    "options": {
+      "A": "MySQL",
+      "B": "PostgreSQL",
+      "C": "SQLite",
+      "D": "MongoDB"
+    },
+    "correct_option": "C",
+    "id": 116,
+    "subject": "django"
+  },
+  {
+    "question": "Where are Django models defined? (17)",
+    "options": {
+      "A": "urls.py",
+      "B": "views.py",
+      "C": "models.py",
+      "D": "admin.py"
+    },
+    "correct_option": "C",
+    "id": 117,
+    "subject": "django"
+  },
+  {
+    "question": "Which template engine does Django use by default? (18)",
+    "options": {
+      "A": "Jinja2",
+      "B": "Mako",
+      "C": "Django template engine",
+      "D": "Handlebars"
+    },
+    "correct_option": "C",
+    "id": 118,
+    "subject": "django"
+  },
+  {
+    "question": "How are static files served in Django during development? (19)",
+    "options": {
+      "A": "Nginx",
+      "B": "Apache",
+      "C": "runserver",
+      "D": "cdn"
+    },
+    "correct_option": "C",
+    "id": 119,
+    "subject": "django"
+  },
+  {
+    "question": "Which file contains database configurations in Django? (20)",
+    "options": {
+      "A": "urls.py",
+      "B": "settings.py",
+      "C": "models.py",
+      "D": "apps.py"
+    },
+    "correct_option": "B",
+    "id": 120,
+    "subject": "django"
+  },
+  {
+    "question": "What is Django primarily used for? (21)",
+    "options": {
+      "A": "Game development",
+      "B": "Web development",
+      "C": "Mobile apps",
+      "D": "AI"
+    },
+    "correct_option": "B",
+    "id": 121,
+    "subject": "django"
+  },
+  {
+    "question": "Which file is used to define URL patterns in Django? (22)",
+    "options": {
+      "A": "settings.py",
+      "B": "urls.py",
+      "C": "models.py",
+      "D": "views.py"
+    },
+    "correct_option": "B",
+    "id": 122,
+    "subject": "django"
+  },
+  {
+    "question": "What command is used to start a new Django app? (23)",
+    "options": {
+      "A": "django-admin startproject",
+      "B": "python manage.py startapp",
+      "C": "startapp.py",
+      "D": "new-django-app"
+    },
+    "correct_option": "B",
+    "id": 123,
+    "subject": "django"
+  },
+  {
+    "question": "Which ORM does Django use? (24)",
+    "options": {
+      "A": "SQLAlchemy",
+      "B": "Django ORM",
+      "C": "Peewee",
+      "D": "Hibernate"
+    },
+    "correct_option": "B",
+    "id": 124,
+    "subject": "django"
+  },
+  {
+    "question": "Which decorator is used for class-based views? (25)",
+    "options": {
+      "A": "@view",
+      "B": "@method",
+      "C": "@classmethod",
+      "D": "@classmethod and dispatch"
+    },
+    "correct_option": "D",
+    "id": 125,
+    "subject": "django"
+  },
+  {
+    "question": "What is the default database used in Django? (26)",
+    "options": {
+      "A": "MySQL",
+      "B": "PostgreSQL",
+      "C": "SQLite",
+      "D": "MongoDB"
+    },
+    "correct_option": "C",
+    "id": 126,
+    "subject": "django"
+  },
+  {
+    "question": "Where are Django models defined? (27)",
+    "options": {
+      "A": "urls.py",
+      "B": "views.py",
+      "C": "models.py",
+      "D": "admin.py"
+    },
+    "correct_option": "C",
+    "id": 127,
+    "subject": "django"
+  },
+  {
+    "question": "Which template engine does Django use by default? (28)",
+    "options": {
+      "A": "Jinja2",
+      "B": "Mako",
+      "C": "Django template engine",
+      "D": "Handlebars"
+    },
+    "correct_option": "C",
+    "id": 128,
+    "subject": "django"
+  },
+  {
+    "question": "How are static files served in Django during development? (29)",
+    "options": {
+      "A": "Nginx",
+      "B": "Apache",
+      "C": "runserver",
+      "D": "cdn"
+    },
+    "correct_option": "C",
+    "id": 129,
+    "subject": "django"
+  },
+  {
+    "question": "Which file contains database configurations in Django? (30)",
+    "options": {
+      "A": "urls.py",
+      "B": "settings.py",
+      "C": "models.py",
+      "D": "apps.py"
+    },
+    "correct_option": "B",
+    "id": 130,
+    "subject": "django"
+  },
+  {
+    "question": "What is Django primarily used for? (31)",
+    "options": {
+      "A": "Game development",
+      "B": "Web development",
+      "C": "Mobile apps",
+      "D": "AI"
+    },
+    "correct_option": "B",
+    "id": 131,
+    "subject": "django"
+  },
+  {
+    "question": "Which file is used to define URL patterns in Django? (32)",
+    "options": {
+      "A": "settings.py",
+      "B": "urls.py",
+      "C": "models.py",
+      "D": "views.py"
+    },
+    "correct_option": "B",
+    "id": 132,
+    "subject": "django"
+  },
+  {
+    "question": "What command is used to start a new Django app? (33)",
+    "options": {
+      "A": "django-admin startproject",
+      "B": "python manage.py startapp",
+      "C": "startapp.py",
+      "D": "new-django-app"
+    },
+    "correct_option": "B",
+    "id": 133,
+    "subject": "django"
+  },
+  {
+    "question": "Which ORM does Django use? (34)",
+    "options": {
+      "A": "SQLAlchemy",
+      "B": "Django ORM",
+      "C": "Peewee",
+      "D": "Hibernate"
+    },
+    "correct_option": "B",
+    "id": 134,
+    "subject": "django"
+  },
+  {
+    "question": "Which decorator is used for class-based views? (35)",
+    "options": {
+      "A": "@view",
+      "B": "@method",
+      "C": "@classmethod",
+      "D": "@classmethod and dispatch"
+    },
+    "correct_option": "D",
+    "id": 135,
+    "subject": "django"
+  },
+  {
+    "question": "What is the default database used in Django? (36)",
+    "options": {
+      "A": "MySQL",
+      "B": "PostgreSQL",
+      "C": "SQLite",
+      "D": "MongoDB"
+    },
+    "correct_option": "C",
+    "id": 136,
+    "subject": "django"
+  },
+  {
+    "question": "Where are Django models defined? (37)",
+    "options": {
+      "A": "urls.py",
+      "B": "views.py",
+      "C": "models.py",
+      "D": "admin.py"
+    },
+    "correct_option": "C",
+    "id": 137,
+    "subject": "django"
+  },
+  {
+    "question": "Which template engine does Django use by default? (38)",
+    "options": {
+      "A": "Jinja2",
+      "B": "Mako",
+      "C": "Django template engine",
+      "D": "Handlebars"
+    },
+    "correct_option": "C",
+    "id": 138,
+    "subject": "django"
+  },
+  {
+    "question": "How are static files served in Django during development? (39)",
+    "options": {
+      "A": "Nginx",
+      "B": "Apache",
+      "C": "runserver",
+      "D": "cdn"
+    },
+    "correct_option": "C",
+    "id": 139,
+    "subject": "django"
+  },
+  {
+    "question": "Which file contains database configurations in Django? (40)",
+    "options": {
+      "A": "urls.py",
+      "B": "settings.py",
+      "C": "models.py",
+      "D": "apps.py"
+    },
+    "correct_option": "B",
+    "id": 140,
+    "subject": "django"
+  },
+  {
+    "question": "What is Django primarily used for? (41)",
+    "options": {
+      "A": "Game development",
+      "B": "Web development",
+      "C": "Mobile apps",
+      "D": "AI"
+    },
+    "correct_option": "B",
+    "id": 141,
+    "subject": "django"
+  },
+  {
+    "question": "Which file is used to define URL patterns in Django? (42)",
+    "options": {
+      "A": "settings.py",
+      "B": "urls.py",
+      "C": "models.py",
+      "D": "views.py"
+    },
+    "correct_option": "B",
+    "id": 142,
+    "subject": "django"
+  },
+  {
+    "question": "What command is used to start a new Django app? (43)",
+    "options": {
+      "A": "django-admin startproject",
+      "B": "python manage.py startapp",
+      "C": "startapp.py",
+      "D": "new-django-app"
+    },
+    "correct_option": "B",
+    "id": 143,
+    "subject": "django"
+  },
+  {
+    "question": "Which ORM does Django use? (44)",
+    "options": {
+      "A": "SQLAlchemy",
+      "B": "Django ORM",
+      "C": "Peewee",
+      "D": "Hibernate"
+    },
+    "correct_option": "B",
+    "id": 144,
+    "subject": "django"
+  },
+  {
+    "question": "Which decorator is used for class-based views? (45)",
+    "options": {
+      "A": "@view",
+      "B": "@method",
+      "C": "@classmethod",
+      "D": "@classmethod and dispatch"
+    },
+    "correct_option": "D",
+    "id": 145,
+    "subject": "django"
+  },
+  {
+    "question": "What is the default database used in Django? (46)",
+    "options": {
+      "A": "MySQL",
+      "B": "PostgreSQL",
+      "C": "SQLite",
+      "D": "MongoDB"
+    },
+    "correct_option": "C",
+    "id": 146,
+    "subject": "django"
+  },
+  {
+    "question": "Where are Django models defined? (47)",
+    "options": {
+      "A": "urls.py",
+      "B": "views.py",
+      "C": "models.py",
+      "D": "admin.py"
+    },
+    "correct_option": "C",
+    "id": 147,
+    "subject": "django"
+  },
+  {
+    "question": "Which template engine does Django use by default? (48)",
+    "options": {
+      "A": "Jinja2",
+      "B": "Mako",
+      "C": "Django template engine",
+      "D": "Handlebars"
+    },
+    "correct_option": "C",
+    "id": 148,
+    "subject": "django"
+  },
+  {
+    "question": "How are static files served in Django during development? (49)",
+    "options": {
+      "A": "Nginx",
+      "B": "Apache",
+      "C": "runserver",
+      "D": "cdn"
+    },
+    "correct_option": "C",
+    "id": 149,
+    "subject": "django"
+  },
+  {
+    "question": "Which file contains database configurations in Django? (50)",
+    "options": {
+      "A": "urls.py",
+      "B": "settings.py",
+      "C": "models.py",
+      "D": "apps.py"
+    },
+    "correct_option": "B",
+    "id": 150,
+    "subject": "django"
+  },
+  {
+    "question": "What is Django primarily used for? (51)",
+    "options": {
+      "A": "Game development",
+      "B": "Web development",
+      "C": "Mobile apps",
+      "D": "AI"
+    },
+    "correct_option": "B",
+    "id": 151,
+    "subject": "django"
+  },
+  {
+    "question": "Which file is used to define URL patterns in Django? (52)",
+    "options": {
+      "A": "settings.py",
+      "B": "urls.py",
+      "C": "models.py",
+      "D": "views.py"
+    },
+    "correct_option": "B",
+    "id": 152,
+    "subject": "django"
+  },
+  {
+    "question": "What command is used to start a new Django app? (53)",
+    "options": {
+      "A": "django-admin startproject",
+      "B": "python manage.py startapp",
+      "C": "startapp.py",
+      "D": "new-django-app"
+    },
+    "correct_option": "B",
+    "id": 153,
+    "subject": "django"
+  },
+  {
+    "question": "Which ORM does Django use? (54)",
+    "options": {
+      "A": "SQLAlchemy",
+      "B": "Django ORM",
+      "C": "Peewee",
+      "D": "Hibernate"
+    },
+    "correct_option": "B",
+    "id": 154,
+    "subject": "django"
+  },
+  {
+    "question": "Which decorator is used for class-based views? (55)",
+    "options": {
+      "A": "@view",
+      "B": "@method",
+      "C": "@classmethod",
+      "D": "@classmethod and dispatch"
+    },
+    "correct_option": "D",
+    "id": 155,
+    "subject": "django"
+  },
+  {
+    "question": "What is the default database used in Django? (56)",
+    "options": {
+      "A": "MySQL",
+      "B": "PostgreSQL",
+      "C": "SQLite",
+      "D": "MongoDB"
+    },
+    "correct_option": "C",
+    "id": 156,
+    "subject": "django"
+  },
+  {
+    "question": "Where are Django models defined? (57)",
+    "options": {
+      "A": "urls.py",
+      "B": "views.py",
+      "C": "models.py",
+      "D": "admin.py"
+    },
+    "correct_option": "C",
+    "id": 157,
+    "subject": "django"
+  },
+  {
+    "question": "Which template engine does Django use by default? (58)",
+    "options": {
+      "A": "Jinja2",
+      "B": "Mako",
+      "C": "Django template engine",
+      "D": "Handlebars"
+    },
+    "correct_option": "C",
+    "id": 158,
+    "subject": "django"
+  },
+  {
+    "question": "How are static files served in Django during development? (59)",
+    "options": {
+      "A": "Nginx",
+      "B": "Apache",
+      "C": "runserver",
+      "D": "cdn"
+    },
+    "correct_option": "C",
+    "id": 159,
+    "subject": "django"
+  },
+  {
+    "question": "Which file contains database configurations in Django? (60)",
+    "options": {
+      "A": "urls.py",
+      "B": "settings.py",
+      "C": "models.py",
+      "D": "apps.py"
+    },
+    "correct_option": "B",
+    "id": 160,
+    "subject": "django"
+  },
+  {
+    "question": "What is Django primarily used for? (61)",
+    "options": {
+      "A": "Game development",
+      "B": "Web development",
+      "C": "Mobile apps",
+      "D": "AI"
+    },
+    "correct_option": "B",
+    "id": 161,
+    "subject": "django"
+  },
+  {
+    "question": "Which file is used to define URL patterns in Django? (62)",
+    "options": {
+      "A": "settings.py",
+      "B": "urls.py",
+      "C": "models.py",
+      "D": "views.py"
+    },
+    "correct_option": "B",
+    "id": 162,
+    "subject": "django"
+  },
+  {
+    "question": "What command is used to start a new Django app? (63)",
+    "options": {
+      "A": "django-admin startproject",
+      "B": "python manage.py startapp",
+      "C": "startapp.py",
+      "D": "new-django-app"
+    },
+    "correct_option": "B",
+    "id": 163,
+    "subject": "django"
+  },
+  {
+    "question": "Which ORM does Django use? (64)",
+    "options": {
+      "A": "SQLAlchemy",
+      "B": "Django ORM",
+      "C": "Peewee",
+      "D": "Hibernate"
+    },
+    "correct_option": "B",
+    "id": 164,
+    "subject": "django"
+  },
+  {
+    "question": "Which decorator is used for class-based views? (65)",
+    "options": {
+      "A": "@view",
+      "B": "@method",
+      "C": "@classmethod",
+      "D": "@classmethod and dispatch"
+    },
+    "correct_option": "D",
+    "id": 165,
+    "subject": "django"
+  },
+  {
+    "question": "What is the default database used in Django? (66)",
+    "options": {
+      "A": "MySQL",
+      "B": "PostgreSQL",
+      "C": "SQLite",
+      "D": "MongoDB"
+    },
+    "correct_option": "C",
+    "id": 166,
+    "subject": "django"
+  },
+  {
+    "question": "Where are Django models defined? (67)",
+    "options": {
+      "A": "urls.py",
+      "B": "views.py",
+      "C": "models.py",
+      "D": "admin.py"
+    },
+    "correct_option": "C",
+    "id": 167,
+    "subject": "django"
+  },
+  {
+    "question": "Which template engine does Django use by default? (68)",
+    "options": {
+      "A": "Jinja2",
+      "B": "Mako",
+      "C": "Django template engine",
+      "D": "Handlebars"
+    },
+    "correct_option": "C",
+    "id": 168,
+    "subject": "django"
+  },
+  {
+    "question": "How are static files served in Django during development? (69)",
+    "options": {
+      "A": "Nginx",
+      "B": "Apache",
+      "C": "runserver",
+      "D": "cdn"
+    },
+    "correct_option": "C",
+    "id": 169,
+    "subject": "django"
+  },
+  {
+    "question": "Which file contains database configurations in Django? (70)",
+    "options": {
+      "A": "urls.py",
+      "B": "settings.py",
+      "C": "models.py",
+      "D": "apps.py"
+    },
+    "correct_option": "B",
+    "id": 170,
+    "subject": "django"
+  },
+  {
+    "question": "What is Django primarily used for? (71)",
+    "options": {
+      "A": "Game development",
+      "B": "Web development",
+      "C": "Mobile apps",
+      "D": "AI"
+    },
+    "correct_option": "B",
+    "id": 171,
+    "subject": "django"
+  },
+  {
+    "question": "Which file is used to define URL patterns in Django? (72)",
+    "options": {
+      "A": "settings.py",
+      "B": "urls.py",
+      "C": "models.py",
+      "D": "views.py"
+    },
+    "correct_option": "B",
+    "id": 172,
+    "subject": "django"
+  },
+  {
+    "question": "What command is used to start a new Django app? (73)",
+    "options": {
+      "A": "django-admin startproject",
+      "B": "python manage.py startapp",
+      "C": "startapp.py",
+      "D": "new-django-app"
+    },
+    "correct_option": "B",
+    "id": 173,
+    "subject": "django"
+  },
+  {
+    "question": "Which ORM does Django use? (74)",
+    "options": {
+      "A": "SQLAlchemy",
+      "B": "Django ORM",
+      "C": "Peewee",
+      "D": "Hibernate"
+    },
+    "correct_option": "B",
+    "id": 174,
+    "subject": "django"
+  },
+  {
+    "question": "Which decorator is used for class-based views? (75)",
+    "options": {
+      "A": "@view",
+      "B": "@method",
+      "C": "@classmethod",
+      "D": "@classmethod and dispatch"
+    },
+    "correct_option": "D",
+    "id": 175,
+    "subject": "django"
+  },
+  {
+    "question": "What is the default database used in Django? (76)",
+    "options": {
+      "A": "MySQL",
+      "B": "PostgreSQL",
+      "C": "SQLite",
+      "D": "MongoDB"
+    },
+    "correct_option": "C",
+    "id": 176,
+    "subject": "django"
+  },
+  {
+    "question": "Where are Django models defined? (77)",
+    "options": {
+      "A": "urls.py",
+      "B": "views.py",
+      "C": "models.py",
+      "D": "admin.py"
+    },
+    "correct_option": "C",
+    "id": 177,
+    "subject": "django"
+  },
+  {
+    "question": "Which template engine does Django use by default? (78)",
+    "options": {
+      "A": "Jinja2",
+      "B": "Mako",
+      "C": "Django template engine",
+      "D": "Handlebars"
+    },
+    "correct_option": "C",
+    "id": 178,
+    "subject": "django"
+  },
+  {
+    "question": "How are static files served in Django during development? (79)",
+    "options": {
+      "A": "Nginx",
+      "B": "Apache",
+      "C": "runserver",
+      "D": "cdn"
+    },
+    "correct_option": "C",
+    "id": 179,
+    "subject": "django"
+  },
+  {
+    "question": "Which file contains database configurations in Django? (80)",
+    "options": {
+      "A": "urls.py",
+      "B": "settings.py",
+      "C": "models.py",
+      "D": "apps.py"
+    },
+    "correct_option": "B",
+    "id": 180,
+    "subject": "django"
+  },
+  {
+    "question": "What is Django primarily used for? (81)",
+    "options": {
+      "A": "Game development",
+      "B": "Web development",
+      "C": "Mobile apps",
+      "D": "AI"
+    },
+    "correct_option": "B",
+    "id": 181,
+    "subject": "django"
+  },
+  {
+    "question": "Which file is used to define URL patterns in Django? (82)",
+    "options": {
+      "A": "settings.py",
+      "B": "urls.py",
+      "C": "models.py",
+      "D": "views.py"
+    },
+    "correct_option": "B",
+    "id": 182,
+    "subject": "django"
+  },
+  {
+    "question": "What command is used to start a new Django app? (83)",
+    "options": {
+      "A": "django-admin startproject",
+      "B": "python manage.py startapp",
+      "C": "startapp.py",
+      "D": "new-django-app"
+    },
+    "correct_option": "B",
+    "id": 183,
+    "subject": "django"
+  },
+  {
+    "question": "Which ORM does Django use? (84)",
+    "options": {
+      "A": "SQLAlchemy",
+      "B": "Django ORM",
+      "C": "Peewee",
+      "D": "Hibernate"
+    },
+    "correct_option": "B",
+    "id": 184,
+    "subject": "django"
+  },
+  {
+    "question": "Which decorator is used for class-based views? (85)",
+    "options": {
+      "A": "@view",
+      "B": "@method",
+      "C": "@classmethod",
+      "D": "@classmethod and dispatch"
+    },
+    "correct_option": "D",
+    "id": 185,
+    "subject": "django"
+  },
+  {
+    "question": "What is the default database used in Django? (86)",
+    "options": {
+      "A": "MySQL",
+      "B": "PostgreSQL",
+      "C": "SQLite",
+      "D": "MongoDB"
+    },
+    "correct_option": "C",
+    "id": 186,
+    "subject": "django"
+  },
+  {
+    "question": "Where are Django models defined? (87)",
+    "options": {
+      "A": "urls.py",
+      "B": "views.py",
+      "C": "models.py",
+      "D": "admin.py"
+    },
+    "correct_option": "C",
+    "id": 187,
+    "subject": "django"
+  },
+  {
+    "question": "Which template engine does Django use by default? (88)",
+    "options": {
+      "A": "Jinja2",
+      "B": "Mako",
+      "C": "Django template engine",
+      "D": "Handlebars"
+    },
+    "correct_option": "C",
+    "id": 188,
+    "subject": "django"
+  },
+  {
+    "question": "How are static files served in Django during development? (89)",
+    "options": {
+      "A": "Nginx",
+      "B": "Apache",
+      "C": "runserver",
+      "D": "cdn"
+    },
+    "correct_option": "C",
+    "id": 189,
+    "subject": "django"
+  },
+  {
+    "question": "Which file contains database configurations in Django? (90)",
+    "options": {
+      "A": "urls.py",
+      "B": "settings.py",
+      "C": "models.py",
+      "D": "apps.py"
+    },
+    "correct_option": "B",
+    "id": 190,
+    "subject": "django"
+  },
+  {
+    "question": "What is Django primarily used for? (91)",
+    "options": {
+      "A": "Game development",
+      "B": "Web development",
+      "C": "Mobile apps",
+      "D": "AI"
+    },
+    "correct_option": "B",
+    "id": 191,
+    "subject": "django"
+  },
+  {
+    "question": "Which file is used to define URL patterns in Django? (92)",
+    "options": {
+      "A": "settings.py",
+      "B": "urls.py",
+      "C": "models.py",
+      "D": "views.py"
+    },
+    "correct_option": "B",
+    "id": 192,
+    "subject": "django"
+  },
+  {
+    "question": "What command is used to start a new Django app? (93)",
+    "options": {
+      "A": "django-admin startproject",
+      "B": "python manage.py startapp",
+      "C": "startapp.py",
+      "D": "new-django-app"
+    },
+    "correct_option": "B",
+    "id": 193,
+    "subject": "django"
+  },
+  {
+    "question": "Which ORM does Django use? (94)",
+    "options": {
+      "A": "SQLAlchemy",
+      "B": "Django ORM",
+      "C": "Peewee",
+      "D": "Hibernate"
+    },
+    "correct_option": "B",
+    "id": 194,
+    "subject": "django"
+  },
+  {
+    "question": "Which decorator is used for class-based views? (95)",
+    "options": {
+      "A": "@view",
+      "B": "@method",
+      "C": "@classmethod",
+      "D": "@classmethod and dispatch"
+    },
+    "correct_option": "D",
+    "id": 195,
+    "subject": "django"
+  },
+  {
+    "question": "What is the default database used in Django? (96)",
+    "options": {
+      "A": "MySQL",
+      "B": "PostgreSQL",
+      "C": "SQLite",
+      "D": "MongoDB"
+    },
+    "correct_option": "C",
+    "id": 196,
+    "subject": "django"
+  },
+  {
+    "question": "Where are Django models defined? (97)",
+    "options": {
+      "A": "urls.py",
+      "B": "views.py",
+      "C": "models.py",
+      "D": "admin.py"
+    },
+    "correct_option": "C",
+    "id": 197,
+    "subject": "django"
+  },
+  {
+    "question": "Which template engine does Django use by default? (98)",
+    "options": {
+      "A": "Jinja2",
+      "B": "Mako",
+      "C": "Django template engine",
+      "D": "Handlebars"
+    },
+    "correct_option": "C",
+    "id": 198,
+    "subject": "django"
+  },
+  {
+    "question": "How are static files served in Django during development? (99)",
+    "options": {
+      "A": "Nginx",
+      "B": "Apache",
+      "C": "runserver",
+      "D": "cdn"
+    },
+    "correct_option": "C",
+    "id": 199,
+    "subject": "django"
+  },
+  {
+    "question": "Which file contains database configurations in Django? (100)",
+    "options": {
+      "A": "urls.py",
+      "B": "settings.py",
+      "C": "models.py",
+      "D": "apps.py"
+    },
+    "correct_option": "B",
+    "id": 200,
+    "subject": "django"
+  },
+  {
+    "id": 300,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (1)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 301,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (2)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 302,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (3)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 303,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (4)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 304,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (5)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 305,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (6)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 306,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (7)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 307,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (8)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 308,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (9)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 309,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (10)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 310,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (11)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 311,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (12)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 312,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (13)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 313,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (14)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 314,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (15)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 315,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (16)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 316,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (17)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 317,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (18)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 318,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (19)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 319,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (20)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 320,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (21)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 321,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (22)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 322,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (23)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 323,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (24)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 324,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (25)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 325,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (26)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 326,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (27)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 327,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (28)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 328,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (29)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 329,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (30)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 330,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (31)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 331,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (32)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 332,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (33)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 333,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (34)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 334,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (35)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 335,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (36)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 336,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (37)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 337,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (38)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 338,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (39)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 339,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (40)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 340,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (41)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 341,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (42)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 342,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (43)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 343,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (44)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 344,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (45)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 345,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (46)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 346,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (47)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 347,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (48)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 348,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (49)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 349,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (50)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 350,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (51)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 351,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (52)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 352,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (53)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 353,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (54)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 354,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (55)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 355,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (56)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 356,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (57)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 357,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (58)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 358,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (59)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 359,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (60)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 360,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (61)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 361,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (62)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 362,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (63)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 363,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (64)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 364,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (65)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 365,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (66)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 366,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (67)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 367,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (68)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 368,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (69)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 369,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (70)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 370,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (71)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 371,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (72)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 372,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (73)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 373,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (74)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 374,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (75)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 375,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (76)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 376,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (77)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 377,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (78)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 378,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (79)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 379,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (80)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 380,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (81)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 381,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (82)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 382,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (83)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 383,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (84)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 384,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (85)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 385,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (86)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 386,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (87)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 387,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (88)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 388,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (89)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 389,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (90)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 390,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (91)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 391,
+    "subject": "java",
+    "question": "Which keyword is used to inherit a class in Java? (92)",
+    "options": {
+      "A": "this",
+      "B": "extends",
+      "C": "inherits",
+      "D": "super"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 392,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (93)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 393,
+    "subject": "java",
+    "question": "Which class is the superclass of all classes in Java? (94)",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "Superclass",
+      "D": "Base"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 394,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (95)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 395,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (96)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 396,
+    "subject": "java",
+    "question": "Which of these is not a Java keyword? (97)",
+    "options": {
+      "A": "static",
+      "B": "Boolean",
+      "C": "void",
+      "D": "private"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 397,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (98)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 398,
+    "subject": "java",
+    "question": "Which method is the entry point of a Java program? (99)",
+    "options": {
+      "A": "start()",
+      "B": "main()",
+      "C": "run()",
+      "D": "init()"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 399,
+    "subject": "java",
+    "question": "What is the default value of a boolean variable in Java? (100)",
+    "options": {
+      "A": "true",
+      "B": "false",
+      "C": "0",
+      "D": "null"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 400,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (1)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 401,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (2)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 402,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (3)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 403,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (4)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 404,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (5)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 405,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (6)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 406,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (7)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 407,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (8)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 408,
+    "subject": "cpp",
+    "question": "Which header file is required for input/output in C++? (9)",
+    "options": {
+      "A": "stdio.h",
+      "B": "iostream",
+      "C": "stdlib.h",
+      "D": "conio.h"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 409,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (10)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 410,
+    "subject": "cpp",
+    "question": "Which header file is required for input/output in C++? (11)",
+    "options": {
+      "A": "stdio.h",
+      "B": "iostream",
+      "C": "stdlib.h",
+      "D": "conio.h"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 411,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (12)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 412,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (13)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 413,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (14)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 414,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (15)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 415,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (16)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 416,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (17)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 417,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (18)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 418,
+    "subject": "cpp",
+    "question": "Which header file is required for input/output in C++? (19)",
+    "options": {
+      "A": "stdio.h",
+      "B": "iostream",
+      "C": "stdlib.h",
+      "D": "conio.h"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 419,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (20)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 420,
+    "subject": "cpp",
+    "question": "Which header file is required for input/output in C++? (21)",
+    "options": {
+      "A": "stdio.h",
+      "B": "iostream",
+      "C": "stdlib.h",
+      "D": "conio.h"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 421,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (22)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 422,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (23)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 423,
+    "subject": "cpp",
+    "question": "Which header file is required for input/output in C++? (24)",
+    "options": {
+      "A": "stdio.h",
+      "B": "iostream",
+      "C": "stdlib.h",
+      "D": "conio.h"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 424,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (25)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 425,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (26)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 426,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (27)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 427,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (28)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 428,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (29)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 429,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (30)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 430,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (31)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 431,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (32)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 432,
+    "subject": "cpp",
+    "question": "Which header file is required for input/output in C++? (33)",
+    "options": {
+      "A": "stdio.h",
+      "B": "iostream",
+      "C": "stdlib.h",
+      "D": "conio.h"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 433,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (34)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 434,
+    "subject": "cpp",
+    "question": "Which header file is required for input/output in C++? (35)",
+    "options": {
+      "A": "stdio.h",
+      "B": "iostream",
+      "C": "stdlib.h",
+      "D": "conio.h"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 435,
+    "subject": "cpp",
+    "question": "Which header file is required for input/output in C++? (36)",
+    "options": {
+      "A": "stdio.h",
+      "B": "iostream",
+      "C": "stdlib.h",
+      "D": "conio.h"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 436,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (37)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 437,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (38)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 438,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (39)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 439,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (40)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 440,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (41)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 441,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (42)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 442,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (43)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 443,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (44)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 444,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (45)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 445,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (46)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 446,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (47)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 447,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (48)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 448,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (49)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 449,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (50)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 450,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (51)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 451,
+    "subject": "cpp",
+    "question": "Which header file is required for input/output in C++? (52)",
+    "options": {
+      "A": "stdio.h",
+      "B": "iostream",
+      "C": "stdlib.h",
+      "D": "conio.h"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 452,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (53)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 453,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (54)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 454,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (55)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 455,
+    "subject": "cpp",
+    "question": "Which header file is required for input/output in C++? (56)",
+    "options": {
+      "A": "stdio.h",
+      "B": "iostream",
+      "C": "stdlib.h",
+      "D": "conio.h"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 456,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (57)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 457,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (58)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 458,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (59)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 459,
+    "subject": "cpp",
+    "question": "Which header file is required for input/output in C++? (60)",
+    "options": {
+      "A": "stdio.h",
+      "B": "iostream",
+      "C": "stdlib.h",
+      "D": "conio.h"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 460,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (61)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 461,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (62)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 462,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (63)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 463,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (64)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 464,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (65)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 465,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (66)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 466,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (67)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 467,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (68)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 468,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (69)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 469,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (70)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 470,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (71)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 471,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (72)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 472,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (73)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 473,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (74)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 474,
+    "subject": "cpp",
+    "question": "Which header file is required for input/output in C++? (75)",
+    "options": {
+      "A": "stdio.h",
+      "B": "iostream",
+      "C": "stdlib.h",
+      "D": "conio.h"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 475,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (76)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 476,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (77)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 477,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (78)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 478,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (79)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 479,
+    "subject": "cpp",
+    "question": "Which header file is required for input/output in C++? (80)",
+    "options": {
+      "A": "stdio.h",
+      "B": "iostream",
+      "C": "stdlib.h",
+      "D": "conio.h"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 480,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (81)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 481,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (82)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 482,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (83)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 483,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (84)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 484,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (85)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 485,
+    "subject": "cpp",
+    "question": "Which header file is required for input/output in C++? (86)",
+    "options": {
+      "A": "stdio.h",
+      "B": "iostream",
+      "C": "stdlib.h",
+      "D": "conio.h"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 486,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (87)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 487,
+    "subject": "cpp",
+    "question": "Which header file is required for input/output in C++? (88)",
+    "options": {
+      "A": "stdio.h",
+      "B": "iostream",
+      "C": "stdlib.h",
+      "D": "conio.h"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 488,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (89)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 489,
+    "subject": "cpp",
+    "question": "Which header file is required for input/output in C++? (90)",
+    "options": {
+      "A": "stdio.h",
+      "B": "iostream",
+      "C": "stdlib.h",
+      "D": "conio.h"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 490,
+    "subject": "cpp",
+    "question": "Which operator is used to allocate memory dynamically in C++? (91)",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "create"
+    },
+    "correct_option": "C"
+  },
+  {
+    "id": 491,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (92)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 492,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (93)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 493,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (94)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 494,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (95)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 495,
+    "subject": "cpp",
+    "question": "Which feature in C++ allows the same function name to be used for different types? (96)",
+    "options": {
+      "A": "Abstraction",
+      "B": "Overloading",
+      "C": "Encapsulation",
+      "D": "Inheritance"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 496,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (97)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  },
+  {
+    "id": 497,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (98)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 498,
+    "subject": "cpp",
+    "question": "Which of the following is used to define a constant in C++? (99)",
+    "options": {
+      "A": "#define",
+      "B": "const",
+      "C": "static",
+      "D": "immutable"
+    },
+    "correct_option": "B"
+  },
+  {
+    "id": 499,
+    "subject": "cpp",
+    "question": "What is the use of 'this' pointer in C++? (100)",
+    "options": {
+      "A": "It refers to current object",
+      "B": "It refers to base class",
+      "C": "It refers to derived class",
+      "D": "None"
+    },
+    "correct_option": "A"
+  }
+]

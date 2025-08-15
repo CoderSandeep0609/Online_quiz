@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+  {{ block.super }}
+  <link rel="stylesheet" href="{% static 'result.css' %}">
+{% endblock %}
+
+{% block body_content %}
+  <div class="container my-5">
+    <div class="result-card shadow">
+      <h2 class="text-center mb-4">📊 Quiz Result</h2>
+
+      <div class="summary mb-4">
+        <p><strong>Name:</strong> {{ request.user }}</p>
+        <p><strong>Subject:</strong> {{ result.0.subject }}</p>
+        <p><strong>Marks Obtained:</strong> {{ total_marks }}</p>
+        <p><strong>Total Marks:</strong> {{ result|length }}</p>
+      </div>
+
+      <hr>
+
+      <h4 class="section-title">📝 Attempted Questions</h4>
+
+      {% for r in result %}
+        <div class="question-block {% if r.selected_answer != r.correct_answer %}wrong{% endif %}">
+          <p><strong>Q:</strong> {{ r.question }}</p>
+          <p>
+            <strong>Your Answer:</strong>
+            {% if r.selected_answer == "not Attempt" %}
+              <span class="not-attempted">Not Attempted</span>
+            {% else %}
+              {{ r.selected_answer }}
+            {% endif %}
+          </p>
+
+          {% if r.selected_answer != r.correct_answer %}
+            <p class="corrected-answer"><strong>Correct Answer:</strong> {{ r.correct_answer }}</p>
+          {% endif %}
+        </div>
+      {% endfor %}
+
+      <div class="text-center mt-4">
+        <a href="{% url 'home_page' %}">
+          <button class="home-btn">🏠 Back to Home</button>
+        </a>
+      </div>
+    </div>
+  </div>
+{% endblock %}
